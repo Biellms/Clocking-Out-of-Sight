@@ -9,13 +9,11 @@ A lightweight web utility to calculate your work departure time based on an 8-ho
 * **Balance Offset**: Subtract extra hours worked on previous days from today's goal.
 * **Dynamic Footer**: Real-time year update and developer links.
 
----
 #### 🛠️ Technologies
 * **HTML5**
 * **CSS3** (Responsive design)
 * **JavaScript** (Vanilla JS)
 
----
 #### 🚀 How to use
 1. Open `index.html` in any web browser.
 2. Enter your **Start of Day** time.
@@ -27,5 +25,4 @@ A lightweight web utility to calculate your work departure time based on an 8-ho
 #### 👤 Author
 Developed by [Gabriel Mendes](https://github.com/Biellms)
 
----
-*Created to help those who struggle with punctuality (like me).*
+> *Created to help those who struggle with punctuality (like me).*
