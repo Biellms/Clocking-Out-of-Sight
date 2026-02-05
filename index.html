@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clocking Out of Sight</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Calculate your departure time (based on 8h)</h2>
+    
+    <div class="input-group">
+        <label>Start of Day</label>
+        <input type="time" id="entrada">
+    </div>
+
+    <div class="input-group">
+        <label>Lunch Break Start</label>
+        <input type="time" id="saidaAlmoco">
+    </div>
+
+    <div class="input-group">
+        <label>Back from Lunch</label>
+        <input type="time" id="retornoAlmoco">
+    </div>
+
+    <div class="input-group">
+        <label>Extra Hours Balance (to subtract)</label>
+        <input type="time" id="balance" value="00:00">
+    </div>
+
+    <div class="result" id="resultadoArea">
+        <p>Morning Session: <span id="tempoTrabalhado">00:00</span></p>
+        <p>Target Clock-out:</p>
+        <div class="highlight" id="horaSaida">--:--</div>
+    </div>
+
+    <div class="footer">
+        <label>
+            Developed by 
+            <a href="https://github.com/Biellms" target="_blank" rel="noopener noreferrer">Gabriel Mendes</a> 
+            © <span id="anoAtual"></span>
+        </label>
+    </div>
+</div>
+
+</body>
+</html>
