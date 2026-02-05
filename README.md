@@ -1,5 +1,7 @@
 ### 🕒 Clocking Out of Sight
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://biellms.github.io/Clocking-Out-of-Sight/app/)
+
 A lightweight web utility to calculate your work departure time based on an 8-hour shift, including lunch breaks and extra hour offsets.
 
 ---
@@ -15,11 +17,12 @@ A lightweight web utility to calculate your work departure time based on an 8-ho
 * **JavaScript** (Vanilla JS)
 
 #### 🚀 How to use
-1. Open `index.html` in any web browser.
-2. Enter your **Start of Day** time.
-3. Enter your **Lunch Break** start and return times.
-4. (Optional) Enter any **Extra Hours Balance** you wish to subtract from today's shift.
-5. Check your **Target Clock-out** time instantly!
+1. Direct Access: Open the live application [here!](https://biellms.github.io/Clocking-Out-of-Sight/app/)!! 🌐
+2. Local Run: Alternatively, clone the repository and open index.html in any web browser.
+3. Inputs:
+   - Enter your Start of Day time.
+   - Enter your Lunch Break start and return times.
+   - (Optional) Enter any Extra Hours Balance to subtract from today's shift.
 
 ---
 #### 👤 Author
